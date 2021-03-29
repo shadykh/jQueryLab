@@ -1,0 +1,28 @@
+header{
+    height: 100px;
+    display: block;
+}
+
+footer{
+height: 100px;
+padding: 49px 10px;
+overflow: hidden;
+}
+
+main {
+    padding: 38px 0;
+}
+
+.divTemplate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 67px;
+
+}
+
+.divSelect {
+    float: right;
+    margin: 0 10px;
+    position: relative;
+    bottom: 47%;
+}

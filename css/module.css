@@ -1,0 +1,20 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 12px 0;
+    padding: 20px 0;
+}
+
+h2 {
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+* p {
+    text-align: justify;
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+img{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+
+h1 {
+    color: #0b5960;
+}
+
+h2 {
+    color: darkcyan;
+    font-weight: 700;
+}
+
+* p {
+    color: darkslategrey;
+    padding: 5px 5px;
+}
+
+.photo-template{
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    padding: 10px 16px;
+    border-style: outset;
+    box-shadow: 10px 10px;
+}
+
+footer{
+    font-size: 20px;
+}
+
+
+
+
+/*Credit to https://freefrontend.com/ */
+
+
+
+  /* Custom Select */
+.divSelect {
+    position: relative;
+    display: flex;
+    width: 10em;
+    height: 3em;
+    line-height: 3;
+}
+select {
+    flex: 1;
+    padding: 0 .5em;
+    color: #fff;
+    cursor: pointer;
+}

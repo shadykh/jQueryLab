@@ -1,0 +1,75 @@
+/*Credit to https://freefrontend.com/ */
+
+body {
+	background: linear-gradient(-45deg, #66d5ff, #fffafc, #bcedff, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+header {
+    box-shadow: 0 10px 0 10px;
+}
+
+
+
+/*Credit to https://freefrontend.com/ */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+}
+
+.divSelect {
+background: #2c3e50;
+overflow: hidden;
+border-radius: .25em;
+}
+
+select {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+        display: none;
+}
+
+  /* Arrow */
+.divSelect::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+}
+  /* Transition */
+.divSelect:hover::after {
+    color: #f39c12;
+}
+
+
