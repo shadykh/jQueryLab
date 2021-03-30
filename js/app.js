@@ -59,7 +59,7 @@ $.ajax('./data/page2.json')
         lengthArr44 = lengthArray2;
         pageData2.forEach(val => {
             let newKeyword2 = new Keyword2(val, lengthArray2);
-            newKeyword2.renderSelect();
+            //newKeyword2.renderSelect();
             let newHorn2 = new Horn2(val);
             newHorn2.renderNewHorn();
         })
