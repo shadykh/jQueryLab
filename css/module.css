@@ -5,8 +5,10 @@ img {
 
 h1 {
     font-size: 35px;
-    margin: 12px 0;
-    padding: 20px 0;
+    float: right;
+    margin: 12px 10px;
+    position: relative;
+    bottom: 47%;
 }
 
 h2 {
