@@ -1,6 +1,8 @@
 header{
     height: 100px;
-    display: block;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 footer{
@@ -12,12 +14,18 @@ overflow: hidden;
 main {
     padding: 38px 0;
 }
+.photo-template{
+    width: 47%;
+    margin: 33px 11px;
+}
 
-.divTemplate {
-    display: grid;
+
+.divTemplate, .divTemplate2 {
+/*     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 67px;
-
+    grid-gap: 67px;  */
+    display: flex;
+    flex-flow: wrap;
 }
 
 .divSelect {

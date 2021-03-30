@@ -7,3 +7,6 @@ body {
     width: 960px;
     margin: auto;
 }
+.photo-template p {
+    text-align: center;
+}
